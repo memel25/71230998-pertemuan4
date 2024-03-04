@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[12]:
 
 
 def cek_angka(pertama, kedua, ketiga):
     if pertama != kedua and pertama != ketiga and kedua != ketiga:
-        if pertama == kedua + ketiga or kedua == pertama + ketiga or ketiga == kedua + ketiga:
+        if pertama == kedua + ketiga or kedua == pertama + ketiga or ketiga == pertama + kedua:
             return True 
         return False
     
